@@ -1,0 +1,13 @@
+name: econ-bus
+channels:
+- default 
+- conda-forge
+dependencies: 
+- python==3.9
+- scipy
+- numpy 
+- pandas
+- seaborn 
+- statsmodels
+- pip: 
+  - nashpy
